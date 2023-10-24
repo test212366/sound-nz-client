@@ -1,0 +1,502 @@
+
+
+@media(max-width: 1800px) {
+	.email {
+		font-size: 13px;
+	}
+	.main__wrapper {
+		margin-left: 15.13%;
+	}
+}
+@media(max-width: 1700px) {
+	.main__wrapper {
+		margin-left: 15.26%;
+  }
+  .playnow {
+	width: 82.4%;
+  }
+}
+@media(max-width: 1600px) {
+	.main__wrapper {
+		margin-left: 15.34%;
+  }
+  .albumes__item img {
+	height: 170px;
+  }
+  .user__account-photo {
+	height: 50px;
+	width: 50px;
+  }
+  .name {
+	margin-top: 5px;
+  }
+  .playnow {
+	width: 82.1%;
+}
+}
+@media(max-width: 1500px) {
+	.name {
+		font-size: 14px;
+	}
+	.user__account-photo {
+		margin-right: 3px;
+	}
+	.main__wrapper {
+		margin-left: 15.43%;
+  }
+  .playnow {
+	width: 81.8%;
+}
+  .wrapper__icon-photo img {
+	height: 90px;
+	width: 90px;
+  }
+  .wrapper__icon-photo {
+	bottom: -12px;
+	left: 15%;
+  }
+  .play__group {
+ 
+	right: 12%;
+  }
+  .main__all-musics {
+	width: 52%;
+}
+}
+@media(max-width: 1400px) {
+	.email {
+		font-size: 11px;
+	}
+	.playnow {
+		width: 81.5%;
+  }
+	.main__wrapper {
+		width: 86%;
+		margin-left: 15.53%;
+  }
+  .albumes__item img {
+	height: 143px;
+}
+.main__videos-item-desc img {
+	height: 77px;
+
+	width: 137px;
+}
+}
+
+@media(max-width: 1300px) {
+	.playnow {
+		width: 81.1%;
+  }
+	.main__wrapper {
+		margin-left: 15.73%;
+	}
+}
+@media(max-width: 1250px) {
+	.playnow {
+		width: 80%;
+  }
+	.navbar {
+		width: 15%;
+	}
+	.main__wrapper {
+		width: 85%;
+		margin-left: 16.81%;	  
+	}
+	.photo-group {
+		width: 96.5%;
+		height: 276px;
+	}
+	.wrapper__icon-photo {
+		bottom: -9px;
+		left: 17%;
+  }
+  .albumes {
+		padding: 10px;
+	}
+	.play__group {
+		right: 14%;
+	}
+	.main__videos-item-desc img {
+		height: 62px;
+		width: 115px;
+  }
+}
+@media(max-width: 1100px) {
+	.playnow {
+		width: 76.4%;
+  }
+	.news {
+		flex-direction: column;
+		align-items: center;
+	}
+	.main__all-musics {
+		width: 95%;
+  }
+  .range__item {
+ 
+	margin-right: 3px;
+  }
+  .time {
+	font-size: 13px;
+  }
+  .next {
+	margin-left: 0;
+  }
+  .unnext {
+	margin-right: 0;
+  }
+  .video-item-title {
+	font-size: 15px;
+  }
+  .video-item-chanel {
+	font-size: 14px;
+  }
+  .main__videos {
+	width: 93%;
+  }
+  .navbar {
+	width: 18%;
+}
+	.main__wrapper {
+		width: 80%;
+		margin-left: 20%;
+	}
+	.wrapper__alb {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.albumes__item {
+		margin-top: 10px;
+		width: 16%;
+	}
+	.loginAcc {
+		font-size: 14px;
+	}
+	 
+}
+@media(max-width: 1000px) {
+	
+	.playnow {
+		width: 97%;
+	}
+	.genres__wrapper {
+		flex-direction: column;
+	}
+	.genres__lists {
+		width: 96%;
+  }
+  .genres__track-list {
+	width: 93%;
+  }
+	.photo-group {
+		padding: 14px;
+	}
+	.user__account {
+		width: 90%;
+	}
+	.login__wrapper {
+		width: 50%;
+	}
+	.navbar__isOpen {
+ 
+		display: block;
+		background-color: transparent;
+		border: none;
+		position: absolute;
+		right: -40px;
+		top: 30px;
+		z-index: 10;
+	}
+	.navbar__isOpen svg {
+		fill: rgb(121, 121, 121);
+	 
+		 
+	}
+	.navbar__isOpen.open {
+		transform: rotate(180deg);
+	}
+	.navbar.open {
+		transform: translateX(0);
+	}
+	.navbar {
+		transition: .3s ease all;
+		transform: translateX(-100%);
+		z-index: 12;
+		background-color: rgb(24, 24, 24);
+	}
+	.main__wrapper {
+		margin-left: 0;
+		width: 100%;
+	}
+	.wrapper__icon-photo {
+	 
+		left: 20%;
+  }
+  .play__group {
+	right: 17%;
+}
+.navbar nav ul li {
+	padding: 6px 20px;
+}
+
+ 
+.playlists {
+   
+    padding: 0 20px 0 10px;
+}
+.navbar__menu {
+	padding-left: 10px;
+}
+}
+@media(max-width: 800px) {
+	.navbar {
+		width: 26%;
+	}
+	.wrapper__icon-photo {
+		left: 26%;
+  }
+  .setPlay svg {
+	height: 23px;
+	width: 23px;
+  }
+  .next svg {
+	height: 12px;
+	width: 12px;
+  }
+  .unnext svg {
+	height: 12px;
+	width: 12px;
+  }
+  .play__group {
+	right: 20%;
+}
+	.volume svg {
+		display: none;
+	}
+	.volume input {
+		display: none;
+	}
+}
+@media(max-width: 650px) {
+	.wrapper__icon-photo img {
+		height: 70px;
+		width: 70px;
+  }
+  .wrapper__icon-photo {
+		left: 32%;
+	}
+	.navbar {
+		width: 30%;
+  }
+	.play__group {
+		right: 24%;
+  }
+	.wrapper__icon-photo {
+		bottom: 0px;
+	}
+}
+@media(max-width: 550px) {
+	.descVideo {
+		margin-right: 0;
+	}
+	
+	.playlists p {
+		font-size: 14px;
+	}
+	.navbar__menu {
+		font-size: 14px;
+	}
+	.titleAccount {
+		font-size: 14px;
+	}
+	.navbar {
+		width: 40%;
+  }
+  .wrapper__icon-photo {
+	left: 36%;
+	}
+	.main__videos {
+		width: 90%;
+  }
+  .albumes__item {
+	width: 30%;
+}
+	
+ 
+ 
+ 
+ 
+ 
+	.playnow {
+ 
+    padding: 11px;
+	}
+}
+@media(max-width: 470px) {
+		.results-title {
+			font-size: 16px;
+		}
+		.login__wrapper {
+			padding: 6px;
+		}
+		.descVideo {
+			margin-right: 4px;
+		}
+
+	.navbar__custom-playlists {
+		padding-left: 10px;
+	}
+	.custom__playlist-title {
+		font-size: 13px;
+	}
+	.custom__playlist-title svg {
+		height: 25px;
+		width: 25px;
+	}
+	.custom__playlist-share {
+		margin-top: 10px;
+	}
+	.custom__playlist-share-item {
+		height: 5px;
+		width: 5px;
+	}
+	.playnow {
+		padding-top: 5px;
+		padding-right: 0;
+	  }
+	.lds-roller {
+		margin-left: 43%;
+	}
+	.genres__item {
+		font-size: 13px;
+	}
+	  .video-item-chanel {
+		font-size: 11px;
+  }
+	.setPlay {
+		padding: 7px;
+	}
+	.main__photo-name {
+		font-size: 14px;
+	}
+	.play__group {
+		font-size: 12px;
+	}
+	.view__all {
+		font-size: 12px;
+	}
+	.track__name {
+		font-size: 13px;
+	}
+	.week {
+		font-size: 13px;
+	}
+	.main__navig p {
+		font-size: 12px;
+	}
+	.photo-group {
+		padding: 9px;
+  }
+  .main__all-musics {
+	padding: 0 20px 10px 9px;
+}
+.video-item-title {
+	font-size: 14px;
+
+}
+.video-item-chanel {
+	font-size: 13px;
+}
+}
+@media(max-width: 450px) {
+	.week {
+	
+		margin-top: 17px;
+
+	}
+	.range__items {
+		width: 130px;
+	}
+	.photo-group {
+		width: 100%;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		padding: 0;
+	}
+	.wrapper__icon-photo {
+		display: none;
+	}
+	.main__photo-name {
+		bottom: 14px;
+		left: 21px;
+	}
+	.play__group {
+		right: 30%;
+		bottom: 12px;
+  }
+  .view__all {
+		bottom: 12px;
+		right: 5%;
+  }
+  .main__track {
+	padding: none;
+  }
+  .main__showAll {
+		font-size: 13px;
+  }
+  .main__title {
+	font-size: 16px;
+  }
+  .main__videos {
+	background-color: rgba(0, 0, 0, 0.596);
+	padding: 5px 9px;
+	width: 95%;
+  }
+  .main__videos-item {
+	 	padding: 15px;
+  }
+  .navbar {
+	width: 50%;
+	}	
+	.genres__wrap-list {
+		margin: 0;
+		width: 100%;
+		padding: 1px;
+	}
+	.genres__lists {
+		width: 100%;
+	}
+	.artistsIMG {
+		border-radius: 20px;
+		margin-bottom: 10px;
+	}
+	.artistsDesc {
+		bottom: 20px;
+	}
+	.resutlts__mus {
+		padding: 7px;
+	}
+	.albums__title {
+		color: rgba(255, 255, 255, 0.473);
+		font-size: 13px;
+	}
+	.wrapper_alb {
+		padding: 10px;
+  }
+  .alb__title {
+	padding-left: 10px;
+  }
+  .favorities__lists {
+	padding: 10px;
+	}
+	.wrapper__addplaylist {
+		width: 87%;
+	}
+	.login__wrapper {
+		width: 88%;
+  }
+  .playlists span {
+	margin-top: 6px;
+  }
+}
